@@ -46,7 +46,7 @@ Transform {
       }
       geometry Mesh {
         url [
-          "C:/Users/Abdo Ahmed/Downloads/tinker.obj"
+          "tinker.obj"
         ]
       }
     }
@@ -65,7 +65,7 @@ E-puck {
   hidden angularVelocity_2 2.0429701679640715 1.441073853574133 -1.8756242241098137e-05
   translation -0.022607105047899357 -0.5521400370963451 -6.397341513792246e-05
   rotation 0.00036567288473573833 0.0007112633779746653 -0.999999680193823 0.956461717153574
-  controller "test_python"
+  controller "epuck_controller"
   groundSensorsSlot [
     DistanceSensor {
       translation 0 0.03 0.015
